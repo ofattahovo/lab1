@@ -1,7 +1,5 @@
-fastapiI
-pydantic
-nest_asyncio
-pyngrok
+fastapi 
 uvicorn
 tensorflow
 numpy
+base64
