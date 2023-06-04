@@ -2,7 +2,7 @@ from fastapi import FastAPI, UploadFile, File
 import uvicorn
 import tensorflow as tf
 import numpy as np
-import base64 #база64
+import base64 
 
 # Загрузка обученной модели
 model = tf.keras.models.load_model('mnist_cnn.h5')
