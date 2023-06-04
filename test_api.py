@@ -8,7 +8,7 @@ def client():
 
 def test_recognize_digit(client):
     # Загрузка изображения
-    with open('3.png', 'rb') as image_file:
+    with open('3.png', 'rb') as image_file: #тесттесттест
         image_data = image_file.read()
 
     # Отправка запроса на распознавание цифры
