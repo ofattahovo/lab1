@@ -3,3 +3,4 @@ uvicorn
 tensorflow
 numpy
 base64
+pytest
