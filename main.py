@@ -38,3 +38,5 @@ async def recognize_digit(file: UploadFile = File(...)):
 # Запуск сервера FastAPI с использованием Uvicorn
 if __name__ == "__main__":
     uvicorn.run(app, host='127.0.0.1', port=8000) # curl -X POST -F "file=@3.png" http://127.0.0.1:8000/recognize_digit для отправки запроса
+
+ #что-то добавляю
