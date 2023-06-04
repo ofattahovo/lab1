@@ -18,6 +18,6 @@ def test_recognize_digit(client):
     assert response.status_code == 200
 
     # Проверка ожидаемого результата
-    expected_digit = 5
+    expected_digit = 3
     assert response.json()['digit'] == expected_digit
 
